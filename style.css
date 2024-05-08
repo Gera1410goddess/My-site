@@ -219,27 +219,30 @@ header {
   background-color: #B7E4DB;
   border-radius: 20px;
 }
-
+.left-skills > div{
+  width: 170px;
+  text-align: center;
+}
 .left-skills{
-  width: 700px;
+  width: 500px;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   gap: 20px;
-  padding-left: 150px;
+  margin: 0 auto;
 }
 .left-skills p{
   font-size: 15px;
 }
-.rating-result {
-    width: max-contant;
-    padding: 20px 30px;
+.skills .rating-result {
+  width: 300px;
+  padding: 20px 30px;
   background-color: #B7E4DB;
   border-radius: 20px;
   height: max-content;
 }
 .rating-result span {
-    padding: 0;
+  padding: 0;
     font-size: 20px;
     margin: 0;
     line-height: 1;
