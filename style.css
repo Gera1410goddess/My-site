@@ -309,5 +309,44 @@ header {
   font-size: 50px;
   line-height: 40px;
   text-align: center;
+  padding-bottom: 50px;
+}
+.projects img{
+  padding-bottom: 10px;
+}
+.animation1{
+  animation-name: rotate-image ;
+  animation-duration: 3s;
+}
+@keyframes rotate-image{
+  from{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+.blog1{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.blog img{
+  width: 45%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.blog{
+  padding-top: 200px;
+}
+.blog h2{
+  font-size: 50px;
+  line-height: 40px;
+  text-align: center;
+
   margin-bottom: 70px;
 }
